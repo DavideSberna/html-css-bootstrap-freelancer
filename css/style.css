@@ -1,0 +1,41 @@
+:root{
+    --dark-blue:#2C3E50;
+    --light-blue:#3A546D;
+    --white:#ffffff;
+    --aqua:#1ABC9C;
+    --black:#333333;
+}
+
+
+/* color setting */
+
+.TR-bg-dark-blue{
+    background-color: var(--dark-blue);
+}
+.TR-bg-light-blue{
+    background-color: var(--light-blue);
+}
+.TR-bg-white{
+    background-color: var(--white);
+}
+.TR-bg-aqua{
+    background-color: var(--aqua);
+}
+.TR-bg-black{
+    background-color: var(--black);
+}
+
+
+
+
+
+div span:not(nav span){
+    width: 100px;
+    height: 4px;
+    background-color: var(--black);
+}
+div span:not(nav span){
+    width: 100px;
+    height: 4px;
+    background-color: var(--black);
+}
