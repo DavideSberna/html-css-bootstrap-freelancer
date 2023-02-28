@@ -60,8 +60,10 @@
 .card-image:hover::after{
     opacity: 1;
 }
-
-
+.btn:hover{
+    background-color: #57cab3;
+    transform: translateY(0.5px);
+}
 
 /* after / before settings  */
 .a-b-icon::after, .a-b-icon::before{
@@ -86,4 +88,10 @@
     border: solid 1px white;
     line-height: 40px;
   }
+
+
+  /* input placeholder settings */
+  input::placeholder, textarea::placeholder {
+    font-size: 1.2em;
+}
   
